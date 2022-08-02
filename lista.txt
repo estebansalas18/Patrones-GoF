@@ -1,0 +1,29 @@
+Patrones creacionales
+---- Factory Method - Crea un objeto a partir de una fábrica
+Abstract Factory - Crea una serie de objetos a partir de una fábrica
+Builder - Crea un objeto a partir de un constructor
+Prototype - Crea un objeto a partir de un prototipo
+Singleton - Crea un objeto a partir de una instancia
+
+Patrones estructurales
+Adapter - Adapta un objeto a otro
+Bridge - Divide una clase en dos clases distintas
+Composite - Una clase que contiene objetos
+Decorator - Agrega funcionalidad a un objeto
+Facade - Una clase que contiene una serie de métodos
+Flyweight - Una clase que contiene una serie de objetos
+Proxy - Una clase que contiene una serie de métodos
+
+Patrones de comportamiento
+Chain of Responsibility
+Command 
+Interpreter
+Iterator
+Mediator
+Memento
+Observer
+State
+Strategy
+Template Method
+Visitor
+
