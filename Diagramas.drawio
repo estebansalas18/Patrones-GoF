@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T13:05:20.651Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37" etag="ej358rEZbo7evVrtmqoJ" version="20.4.0" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2022-10-12T14:50:52.367Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37" etag="sPu4XMaZR3DwoYc7QpsY" version="20.4.0" type="github" pages="22">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Factory Method">
-    <mxGraphModel dx="1374" dy="1184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="990" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1864,7 +1864,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GXrKKXUNg1lVTDtoK1KX" name="Command">
-    <mxGraphModel dx="2201" dy="1953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1817" dy="1737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2459,7 +2459,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pSxx1bgc-vbK25BBK-V9" name="Memento">
-    <mxGraphModel dx="1374" dy="1953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1616" dy="2091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2581,20 +2581,6 @@
         </mxCell>
         <mxCell id="U7SLV-GFNend8IH1SOCA-18" value="+ execute()" style="text;strokeColor=#000000;fillColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;labelBackgroundColor=none;sketch=0;fillStyle=auto;fontColor=#000000;" parent="U7SLV-GFNend8IH1SOCA-16" vertex="1">
           <mxGeometry y="40" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="U7SLV-GFNend8IH1SOCA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;endSize=12;startArrow=diamondThin;startFill=0;startSize=12;" parent="1" source="U7SLV-GFNend8IH1SOCA-25" target="U7SLV-GFNend8IH1SOCA-28" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="955" y="-492" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U7SLV-GFNend8IH1SOCA-25" value="History" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;labelBackgroundColor=none;sketch=0;fillStyle=auto;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="870" y="-455" width="140" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="U7SLV-GFNend8IH1SOCA-26" value="- history: Command[]" style="text;strokeColor=#000000;fillColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;labelBackgroundColor=none;sketch=0;fillStyle=auto;fontColor=#000000;" parent="U7SLV-GFNend8IH1SOCA-25" vertex="1">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="U7SLV-GFNend8IH1SOCA-27" value="+ push(c: Command)&#xa;+ undo()&#xa;+ redo()" style="text;strokeColor=#000000;fillColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;labelBackgroundColor=none;sketch=0;fillStyle=auto;fontColor=#000000;" parent="U7SLV-GFNend8IH1SOCA-25" vertex="1">
-          <mxGeometry y="52" width="140" height="58" as="geometry" />
         </mxCell>
         <mxCell id="U7SLV-GFNend8IH1SOCA-28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Command&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getName()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ execute()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;labelBackgroundColor=none;strokeWidth=1;strokeColor=#000000;fillColor=#FFFFFF;swimlaneLine=1;rounded=0;shadow=0;sketch=0;fillStyle=auto;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="890" y="-605" width="97.5" height="80" as="geometry" />
